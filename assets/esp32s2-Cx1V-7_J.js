@@ -1,0 +1,1 @@
+import{t as e}from"./esp32s2-CH74fsPZ.js";export{e as ESP32S2ROM};

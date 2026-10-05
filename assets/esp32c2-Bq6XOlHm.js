@@ -1,0 +1,1 @@
+import{t as e}from"./esp32c2-1TrTjx4Q.js";export{e as ESP32C2ROM};

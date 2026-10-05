@@ -1,0 +1,1 @@
+import{t as e}from"./esp32h2-C-kYftFs.js";export{e as ESP32H2ROM};
