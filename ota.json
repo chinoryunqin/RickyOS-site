@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "product": "RickyOS",
+  "board": "readpico",
+  "channel": "stable",
+  "status": "no_update"
+}
