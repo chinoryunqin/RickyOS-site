@@ -3,5 +3,13 @@
   "product": "RickyOS",
   "board": "readpico",
   "channel": "stable",
-  "status": "no_update"
+  "status": "update_available",
+  "version": "1.6.5-rickyos-pico.12",
+  "file": "firmware/RickyOS-1.6.5-rickyos-pico.12.bin",
+  "bytes": 5958448,
+  "sha256": "7d4eaba342a1c637f1a23ac040a47f5d49274fe94d64cb784b0f61ecdbab3ba0",
+  "approved": true,
+  "hardwareAccepted": true,
+  "chipId": 9,
+  "flashBytes": 16777216
 }
