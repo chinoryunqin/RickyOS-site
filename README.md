@@ -10,7 +10,7 @@ RickyOS 是第三方固件，并非 MindReset 官方固件。
 正式版 `1.6.5-rickyos-pico.12` 已发布。
 
 - 网页安装：电脑 Chrome / Edge 连接设备，先保存并校验完整备份，再更新应用。
-  目前支持已装有 CrossMux 或 RickyOS 的设备；原厂系统的首次安装还在验收，暂未开放。
+  原厂系统、CrossMux 或其他系统都可以直接安装；完整备份可选。
 - 设备在线更新：读取 [ota.json](./ota.json)，与网页发行目录 [releases.json](./releases.json)
   同源生成，版本、大小和 SHA-256 一致，不跳转或回退至其他品牌的固件。
 
