@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "product": "RickyOS",
+  "board": "readpico",
+  "channel": "stable",
+  "status": "update_available",
+  "version": "1.1.5",
+  "file": "firmware/RickyOS-1.1.5.bin",
+  "bytes": 6029312,
+  "sha256": "1b02cfb6dc3c71093a4d0910061bfeaaee5e362c87f58d01bb57dff5d9536b56",
+  "approved": true,
+  "hardwareAccepted": true,
+  "chipId": 9,
+  "flashBytes": 16777216
+}
