@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "product": "RickyOS",
+  "board": "metalio-plus-s31",
+  "channel": "stable",
+  "status": "update_available",
+  "version": "1.2.0",
+  "file": "firmware/RickyOS-Plus-1.2.0.bin",
+  "bytes": 4825936,
+  "sha256": "a1e3e69cb7aeb4a8bbe88f52d309ee3ade033f9a487cd60a0d0fe6562ca55365",
+  "approved": true,
+  "hardwareAccepted": true,
+  "chipId": 32,
+  "flashBytes": 16777216
+}
