@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "product": "RickyOS",
+  "board": "eego_a4",
+  "channel": "stable",
+  "status": "update_available",
+  "version": "1.2.2",
+  "file": "firmware/RickyOS-EEGO-A4-1.2.2.bin",
+  "bytes": 5997936,
+  "sha256": "a3af9125112f028cd774813820df054a6e79e308511f4cd7072870fa4ad3b038",
+  "approved": true,
+  "hardwareAccepted": true,
+  "chipId": 9,
+  "flashBytes": 16777216
+}
