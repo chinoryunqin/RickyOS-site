@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "product": "RickyOS",
+  "board": "metalio_eink4",
+  "channel": "stable",
+  "status": "update_available",
+  "version": "1.2.24",
+  "file": "firmware/RickyOS-metalio-eink4-1.2.24.bin",
+  "bytes": 6002384,
+  "sha256": "6d532d2094dd46705580d85ac39fb51097f90fc27cac6d53062ab82524af5b8b",
+  "approved": true,
+  "hardwareAccepted": true,
+  "chipId": 9,
+  "flashBytes": 16777216
+}
