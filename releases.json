@@ -3,16 +3,16 @@
   "product": "RickyOS",
   "releases": [
     {
-      "version": "1.2.28",
+      "version": "1.2.30",
       "approved": true,
       "hardwareAccepted": true,
       "mode": "auto-install",
       "board": "readpico",
       "chipId": 9,
       "flashBytes": 16777216,
-      "file": "firmware/RickyOS-1.2.28.bin",
-      "bytes": 5378016,
-      "sha256": "1209c6aac6b966bef83f96a175970033ecde7feaf844cb3b23fdc8c8a5b33a96",
+      "file": "firmware/RickyOS-1.2.30.bin",
+      "bytes": 5409168,
+      "sha256": "7a8112424a29000595928aa05dc1ddf471c651de30b86d919c6b32a7e7d18659",
       "fullInstall": {
         "approved": true,
         "hardwareAccepted": true,
@@ -45,24 +45,22 @@
         ]
       },
       "notes": [
-        "锁屏 PIN 支持四位或六位，兼容已有密码，优化多位密码输入流畅度。",
-        "按键绑定支持书库上一页、下一页。",
-        "书籍封面待机新增书页叠层书签版式。",
-        "现有阅读线适度加深，保持原有样式和设置。",
-        "关于本机显示芯片型号和当前电池电压。"
+        "新增 EPUB 注解，默认使用弹注。可在阅读菜单「阅读线」下方的「注解显示」切换为页下注，或关闭注解。",
+        "优化下载生成的目录和注解，兼容更多 EPUB 脚注。",
+        "修复部分 EPUB 段落中间出现额外空白，以及阅读状态栏选择「章节名」时仍显示书名的问题。"
       ]
     },
     {
-      "version": "1.2.28",
+      "version": "1.2.30",
       "approved": true,
       "hardwareAccepted": true,
       "mode": "plus-install",
       "board": "metalio-plus-s31",
       "chipId": 32,
       "flashBytes": 16777216,
-      "file": "firmware/RickyOS-Plus-1.2.28.bin",
-      "bytes": 5896640,
-      "sha256": "797ce7d895b9c31cf735f6beac727ffcad4c98faa84104a324450e5f01a2cfd0",
+      "file": "firmware/RickyOS-Plus-1.2.30.bin",
+      "bytes": 5924064,
+      "sha256": "68b6e473499b5e3cf3b4999dd847193447df6b3a2c362f69e95eb3b4cbc316f2",
       "bootloader": {
         "offset": 8192,
         "file": "firmware/RickyOS-Plus-1.2.3-bootloader.bin",
@@ -76,21 +74,18 @@
         "sha256": "bd0f7954aca2ef7d925ee21aaa1f3dc8822d1d6ce5cbbd26a135e5886bfff6ce"
       },
       "notes": [
-        "锁屏 PIN 支持四位或六位，兼容已有密码，优化多位密码输入流畅度。",
-        "按键绑定支持书库上一页、下一页。",
-        "书籍封面待机新增书页叠层书签版式。",
-        "现有阅读线适度加深，保持原有样式和设置。",
-        "关于本机显示芯片型号和当前电池电压。",
-        "Plus 支持震动强度调节，修复在线升级资源匹配与旧版本兼容问题。"
+        "新增 EPUB 注解，默认使用弹注。可在阅读菜单「阅读线」下方的「注解显示」切换为页下注，或关闭注解。",
+        "优化下载生成的目录和注解，兼容更多 EPUB 脚注。",
+        "修复部分 EPUB 段落中间出现额外空白，以及阅读状态栏选择「章节名」时仍显示书名的问题。"
       ],
       "pdfAssets": {
         "offset": 13172736,
-        "file": "firmware/RickyOS-Plus-1.2.28-pdf-assets.bin",
+        "file": "firmware/RickyOS-Plus-1.2.30-pdf-assets.bin",
         "bytes": 2624614,
         "sha256": "12d56dbdbcd609a45ecab62e21a90ed1c75b223c445dad9a64f4f2bc07f90b89"
       },
       "pdfDownload": {
-        "file": "firmware/RickyOS-Plus-1.2.28-pdf-only.bin",
+        "file": "firmware/RickyOS-Plus-1.2.30-pdf-only.bin",
         "bytes": 1449062,
         "sha256": "6334f96e860b3f9de77f36061dd0d2acd6463af6b9873cf51a12ec33b9727c16"
       }
