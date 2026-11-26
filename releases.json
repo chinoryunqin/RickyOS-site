@@ -3,16 +3,16 @@
   "product": "RickyOS",
   "releases": [
     {
-      "version": "1.2.33",
+      "version": "1.2.34",
       "approved": true,
       "hardwareAccepted": true,
       "mode": "auto-install",
       "board": "readpico",
       "chipId": 9,
       "flashBytes": 16777216,
-      "file": "firmware/RickyOS-1.2.33.bin",
-      "bytes": 5435840,
-      "sha256": "2b4aa5d991eacfd8eb67212afe75ec5e9288d23de6e67550b2ad9a7c400669af",
+      "file": "firmware/RickyOS-1.2.34.bin",
+      "bytes": 5441296,
+      "sha256": "34b654a930f932af82bf09ec4904edc88a58b99094cf236eddfd506d5970b333",
       "fullInstall": {
         "approved": true,
         "hardwareAccepted": true,
@@ -45,23 +45,22 @@
         ]
       },
       "notes": [
-        "优化章节目录，标记当前章节并支持快速定位。",
-        "优化长按划线与查词的响应。",
-        "按键设置新增触屏翻页开关。",
-        "阅读时可将侧键短按设为待机、上一页或下一页。"
+        "谴责墨云芯涉嫌抄袭及相关挑衅言论，已收集并留存相关材料。",
+        "优化 Wi-Fi 和热点传书，改进大文件上传与写入。",
+        "优化第三方读书的书架、详情和图片下载，支持侧键整页翻动书架。"
       ]
     },
     {
-      "version": "1.2.33",
+      "version": "1.2.34",
       "approved": true,
       "hardwareAccepted": true,
       "mode": "plus-install",
       "board": "metalio-plus-s31",
       "chipId": 32,
       "flashBytes": 16777216,
-      "file": "firmware/RickyOS-Plus-1.2.33.bin",
-      "bytes": 5950480,
-      "sha256": "6c3e5d2454c4fb6127273768d9cd58b432fbd885200b5e6fe1e4e2ef5e264fe5",
+      "file": "firmware/RickyOS-Plus-1.2.34.bin",
+      "bytes": 5954000,
+      "sha256": "2c68fc833aee2722ec23f66efe0180cea5bab3b883ef552889d70adf1d4615c7",
       "bootloader": {
         "offset": 8192,
         "file": "firmware/RickyOS-Plus-1.2.3-bootloader.bin",
@@ -75,20 +74,20 @@
         "sha256": "bd0f7954aca2ef7d925ee21aaa1f3dc8822d1d6ce5cbbd26a135e5886bfff6ce"
       },
       "notes": [
-        "优化章节目录，标记当前章节并支持快速定位。",
-        "优化长按划线与查词的响应。",
-        "主页键和 AI 键可绑定切换触屏翻页。",
-        "改善强动效翻页时的抗锯齿显示。",
-        "减少弹注打开和收起时的闪动。"
+        "谴责墨云芯涉嫌抄袭及相关挑衅言论，已收集并留存相关材料。",
+        "优化 Wi-Fi 和热点传书，改进大文件上传与写入。",
+        "优化第三方读书的书架、详情和图片下载，支持侧键整页翻动书架。",
+        "修复横屏阅读时底部按键的翻页方向。",
+        "开启触摸反馈后，输入锁屏 PIN 时提供震动反馈。"
       ],
       "pdfAssets": {
         "offset": 13172736,
-        "file": "firmware/RickyOS-Plus-1.2.33-pdf-assets.bin",
+        "file": "firmware/RickyOS-Plus-1.2.34-pdf-assets.bin",
         "bytes": 2624614,
         "sha256": "12d56dbdbcd609a45ecab62e21a90ed1c75b223c445dad9a64f4f2bc07f90b89"
       },
       "pdfDownload": {
-        "file": "firmware/RickyOS-Plus-1.2.33-pdf-only.bin",
+        "file": "firmware/RickyOS-Plus-1.2.34-pdf-only.bin",
         "bytes": 1449062,
         "sha256": "6334f96e860b3f9de77f36061dd0d2acd6463af6b9873cf51a12ec33b9727c16"
       }
