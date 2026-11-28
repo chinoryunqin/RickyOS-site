@@ -3,16 +3,16 @@
   "product": "RickyOS",
   "releases": [
     {
-      "version": "1.2.35",
+      "version": "1.2.36",
       "approved": true,
       "hardwareAccepted": true,
       "mode": "auto-install",
       "board": "readpico",
       "chipId": 9,
       "flashBytes": 16777216,
-      "file": "firmware/RickyOS-1.2.35.bin",
-      "bytes": 5447632,
-      "sha256": "9e069abc76a5f913b5a25c1287f07fa46ba6a5ddcec75fa5ad9e205f66a309f5",
+      "file": "firmware/RickyOS-1.2.36.bin",
+      "bytes": 5456624,
+      "sha256": "8fdf83b5f13b354792f8483e7cedac35be879355bb6a050f084370e7398fadf1",
       "fullInstall": {
         "approved": true,
         "hardwareAccepted": true,
@@ -45,23 +45,24 @@
         ]
       },
       "notes": [
-        "阅读线新增「跟随文字」开关，线型可单独选择。",
-        "排版新增「标点紧凑」，可收紧横排中文标点的留白。",
-        "待机时钟支持顶部或底部，背景可选无、渐变和透亮玻璃。",
-        "优化壁纸设置的切换和预览加载，减少开关机及待机解锁后的残影。"
+        "新增玻璃封腰待机样式，展示书名、阅读进度和摘录。",
+        "图片待机支持轮播，每次锁屏可换一张壁纸。",
+        "加快普通和透明壁纸解锁后返回首页的速度。",
+        "阅读菜单新增晃动翻页入口，放大 EPUB 注号。",
+        "修复竖排阅读时选词位置偏移的问题。"
       ]
     },
     {
-      "version": "1.2.35",
+      "version": "1.2.36",
       "approved": true,
       "hardwareAccepted": true,
       "mode": "plus-install",
       "board": "metalio-plus-s31",
       "chipId": 32,
       "flashBytes": 16777216,
-      "file": "firmware/RickyOS-Plus-1.2.35.bin",
-      "bytes": 5959904,
-      "sha256": "6d44a0226fdda77bee8e4c95a0a4da03eb0fef25c2477ad7553ff43ce5d42446",
+      "file": "firmware/RickyOS-Plus-1.2.36.bin",
+      "bytes": 5969360,
+      "sha256": "52ebfd7155c66a0fb19c3a6f7ea9de3cb9d9a05e38885be5b974b71b2cc62462",
       "bootloader": {
         "offset": 8192,
         "file": "firmware/RickyOS-Plus-1.2.3-bootloader.bin",
@@ -75,20 +76,21 @@
         "sha256": "bd0f7954aca2ef7d925ee21aaa1f3dc8822d1d6ce5cbbd26a135e5886bfff6ce"
       },
       "notes": [
-        "阅读线新增「跟随文字」开关，线型可单独选择。",
-        "排版新增「标点紧凑」，可收紧横排中文标点的留白。",
-        "待机时钟支持顶部或底部，背景可选无、渐变和透亮玻璃。",
-        "优化壁纸设置的切换和预览加载，减少开关机及待机解锁后的残影。",
-        "翻页动效新增「中」档，保留当前动效，使用经典灰阶显示效果。"
+        "新增玻璃封腰待机样式，展示书名、阅读进度和摘录。",
+        "图片待机支持轮播，每次锁屏可换一张壁纸。",
+        "加快普通和透明壁纸解锁后返回首页的速度。",
+        "阅读菜单新增晃动翻页入口，放大 EPUB 注号。",
+        "修复竖排阅读时选词位置偏移的问题。",
+        "修复自动加载 PDF 封面可能引起重启的问题。"
       ],
       "pdfAssets": {
         "offset": 13172736,
-        "file": "firmware/RickyOS-Plus-1.2.35-pdf-assets.bin",
+        "file": "firmware/RickyOS-Plus-1.2.36-pdf-assets.bin",
         "bytes": 2624614,
         "sha256": "12d56dbdbcd609a45ecab62e21a90ed1c75b223c445dad9a64f4f2bc07f90b89"
       },
       "pdfDownload": {
-        "file": "firmware/RickyOS-Plus-1.2.35-pdf-only.bin",
+        "file": "firmware/RickyOS-Plus-1.2.36-pdf-only.bin",
         "bytes": 1449062,
         "sha256": "6334f96e860b3f9de77f36061dd0d2acd6463af6b9873cf51a12ec33b9727c16"
       }
